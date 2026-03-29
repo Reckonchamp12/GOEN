@@ -1,0 +1,30 @@
+# configs/goen_fast.yaml
+# Fast GOEN config for debugging / smoke-testing on CPU or small GPU.
+# Inherits from goen_default.yaml, override only changed values.
+
+seed:        42
+data_root:   ./data
+output_dir:  ./checkpoints_fast
+batch_size:  128
+num_classes: 10
+val_size:    5000
+
+# Reduced epochs for quick iteration
+p1_epochs:   40
+p1_patience: 10
+p1_lr:       0.1
+p1_momentum: 0.9
+p1_wd:       0.0005
+center_lr:   0.5
+center_alpha: 0.01
+
+proj_dim:    512
+single_scale: false
+
+p3_epochs:   10
+p3_patience: 6
+p3_lr:       0.001
+id_target:   0.05
+ood_target:  0.95
+svhn_ood:    true
+svhn_n:      2000
