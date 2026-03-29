@@ -12,7 +12,9 @@
   <img src="https://img.shields.io/badge/CIFAR--10-Avg%20AUROC%200.9337-22c55e" alt="Results"/>
   <img src="https://img.shields.io/badge/status-research--code-orange" alt="Status"/>
 </p>
-
+fig1_main_results_dark.png
+fig2_analysis_dark.png
+fig3_distributions_dark.png
 ---
 
 > **GOEN** is a principled, geometry-aware approach to epistemic uncertainty estimation and out-of-distribution (OOD) detection. By unifying multi-scale feature compactness (CenterLoss), spherical Mahalanobis scoring, and a learned calibration head trained on real hard-OOD data, GOEN achieves **Avg OOD AUROC 0.9337 ± 0.0085** on CIFAR-10 — surpassing every single baseline in the benchmark, including Deep Ensembles, ODIN, Energy Score, and KNN.
